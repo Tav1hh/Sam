@@ -26,12 +26,12 @@
             /* top: 0px; */
             width: 100vw;
         }
-        header img{
+        /* header img{
             background-color: white;
             width: 50px;
             border-radius: 20px;
             margin: 10px 20px;
-        }
+        } */
         header nav{
             position: absolute;
             right: 20px;
@@ -61,7 +61,7 @@
             margin: auto;
         }
         main img{
-            width: 200px;
+            width: 300px;
             margin-top: 20px;
             border-radius: 50%;
             margin-bottom: 10px;
@@ -73,7 +73,7 @@
             color: #b99deb;
             line-height: 2em;
             font-style: oblique;
-            font-size: 1em;
+            font-size: 1.2em;
             margin-bottom: 10px;
         }
         main .btn{
@@ -84,11 +84,19 @@
             border-radius: 20px;
             padding: 15px;
         }
+        @media (max-width: 500px){
+            main img{
+                width: 200px
+            }
+            main p{
+                font-size: 1em;
+            }
+        }
     </style>
 </head>
 <body>
     <header>
-        <a href="https://discord.com/invite/nub5WaDDb4"><img src="Discord.jpg" alt="imagem do Sam"></a>
+        <!-- <a href="https://discord.com/invite/nub5WaDDb4"><img src="Discord.jpg" alt="imagem do Sam"></a> -->
         <nav>
             <a href="https://discord.com/invite/nub5WaDDb4">Servidor</a>
             <a class="dst" href="index2.html">Comandos</a>
